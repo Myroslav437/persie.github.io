@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat';
+		background-color: #fffdfc;
+		color: #101010;
+}
+
+.stream{
+	min-width: 500px;
+	max-width: 1000px;
+	min-height: 300px;
+	max-height: 600px;
+	padding: 100px 0px 50px 0px;
+	height: 1000px;
+	margin: auto;
+}
+
+.information{
+	border: 5px solid  #666;
+	border-radius: 12px;
+	padding: 20px 20px 20px 20px;
+	font-family: 'Montserrat';
+	position: relative;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:40px;
+right:40px;
+display:none;
+text-indent:-9999px;
+background: url(http://webmastermix.ru/files/demo/creation-site/raznoe/knopka-vverh/icon_top.png) no-repeat;
+z-index: 2;
+}
