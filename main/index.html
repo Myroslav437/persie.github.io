@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+       <link rel="stylesheet" href="chiefslider.css">
+       <script src="chiefslider.js"></script>
+	<link rel="stylesheet" type="text/css" href="RGR.css">
+  <link rel="stylesheet" type="text/css" href="header_footer.css">
+
+  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="Logo2.png" type="image/png">
+	<script type="text/javascript" src="RGR.js"> </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+   <script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+	<title>Perseverance Mars Rover</title>
+ 
+
+     <!-- height: 100%;
+    display: table;
+    float: left;
+    margin-left: 20px;
+    margin-left: 40px;
+    margin-top: 3px; -->
+
+    <!-- height: 100%;
+    display: table;
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-right: -27px; -->
+
+</head>
+<body>
+  <a href="#" class="scrollup">Наверх</a>
+       <div class="header">
+           <div class="inner-header">
+              <div class="logo_conteiner">
+                <h1><a href="../main/index.html" style="color: white;"><img width="65" height="55" src="Logo2.png"></a></h1>
+              </div>
+              <ul class="navigation">
+                <li class="dropdown">
+                  <a href="#">Про місію</a>
+                  <ul class="dropdown_menu">
+                    <li class="w"><a href="../overview/index.html" id="textSubMenu">Огляд</a></li>
+                    <li class="w"><a href="../science/index.html" id="textSubMenu">Наука</a></li>
+                    <li class="w"><a href="../technology/index.html" id="textSubMenu">Технологія</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                              <a href="#">Ремесло</a>
+                              <ul class="dropdown_menu" >
+                                    <li class="w"><a href="../rover/index.html" id="textSubMenu">Марсохід</a></li>
+                                    <li class="w"><a href="../instruments/index.html" id="textSubMenu">Інструменти</a></li>
+                                    <li class="w"><a href="../rockets/index.html" id="textSubMenu">Ракети</a></li>
+                              </ul>
+
+                        </li>
+                <li class="dropdown">
+                              <a href="#">Мультимедіа</a>
+                              <ul class="dropdown_menu">
+                                    <li class="w"><a href="../photo/index.html" id="textSubMenu">Фото</a></li>
+                                    <li class="w"><a href="../video/index.html" id="textSubMenu">Відео</a></li>
+                                    <li class="w"><a href="../audio.index.html" id="textSubMenu">Аудіо</a></li>
+                              </ul>
+<li class="dropdown"><a href="../livestream/index.html">Прямий ефір</a></li>
+                        </li>
+                <li class="dropdown"><a href="../news/index.html">Новини</a></li>
+                <li class="dropdown"><a href="../team/index.html">Команда</a></li>
+              </ul>
+           </div>
+       </div>
+
+       <div class="container">
+
+    <div class="slider" data-slider="chiefslider">
+      <div class="slider__container">
+        <div class="slider__wrapper">
+          <div class="slider__items">
+
+            <div style="z-index: 2;" class="slider__item">
+              <div  class="slider__item-container">
+                <div   class="slider__item-content">
+                  <video  width="1519" autoplay muted loop>
+                              <source src="mars2020_rover_model-1920.mp4" type="video/mp4">
+                        </video>
+                         <div class="image-caption">
+  <div class="category"><a href="../rover/index.html">3D модель Perseverance</a></div>
+</div>      
+</div>    
+              </div>
+            </div>
+
+<div  class="slider__item">
+              <div class="slider__item-container">
+                <div class="slider__item-content">
+                  <img  width="1519" height ="755" src="https://www.ixbt.com/img/n1/news/2021/4/6/perseverance-rover-selfie_large.jpg">
+                  <div class="image-caption1">
+  <div class="category"><a href="https://mars.nasa.gov/mars2020/news/">Слідкуйте за новинами</a></div>
+</div>     
+</div>     
+
+ </div>
+            </div>
+
+
+            <div class="slider__item">
+              <div class="slider__item-container">
+                <div class="slider__item-content">
+                  <img width="1519" height ="755" src="https://i1.wp.com/itc.ua/wp-content/uploads/2020/03/pia23491.0.jpg?fit=1920%2C1080&quality=100&strip=all&ssl=1">
+                  <div class="image-caption">
+  <div class="category"><a href="../livestream/index.html">Прямий ефір з Марсу</a></div>
+</div>          
+</div>
+
+              </div>
+            </div>
+ 
+          </div>
+        </div>
+      </div>
+      <a href="#" style="z-index: 3;" class="slider__control" data-slide="prev"></a>
+      <a href="#" style="z-index: 3;" class="slider__control" data-slide="next"></a>
+    </div>
+
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+const $slider = document.querySelector('[data-slider="chiefslider"]');
+  new ChiefSlider($slider, {
+    loop: true,
+  });
+});
+  </script>
+
+<div class="more"><a href="#Quick-Facts">MORE</a></div>
+
+  <div id="Quick-Facts" class="section">
+<div class="rover">
+<h3 class="subtitle">Факти</h3>
+<a href="/mars2020/spacecraft/rover/" class="facts_rover"><span class="icon-plus"></span><div class="overlay"><span class="text-label">Дослідіть <br>Rover в 3D</span></div></a>
+<div class="text-overlay right-box">
+<ul class="noBullets">
+<li>
+<span class="fact-title fontBold">Міссія: </span>
+<span class="fact-text value">Mars 2020</span>
+</li>
+<li>
+<span class="fact-title fontBold">Марсохід: </span>
+<span class="fact-text value"><a href="https://mars.nasa.gov/news/8622/virginia-middle-school-student-earns-honor-of-naming-nasas-next-mars-rover/">Perseverance</a></span>
+</li>
+<li>
+<span class="fact-title fontBold">Головна ціль: </span>
+<span class="fact-text value">Шукайте ознаки давнього життя та збирайте зразки гірських порід та реголіту (розбитої породи та ґрунту) для можливого повернення на Землю.
+</span>
+</li>
+<li>
+<span class="fact-title fontBold">Запуск: </span>
+<span class="fact-text value">Червень 30, 2020</span>
+</li>
+<li>
+<span class="fact-title fontBold">Посадка: </span>
+<span class="fact-text value">Лютий 18, 2021, Кратер Єзеро, Марс</span>
+</li>
+<li>
+<span class="fact-title fontBold">Технічна демонстрація: </span>
+<span class="fact-text value"><a href="https://mars.nasa.gov/technology/helicopter">Марсовий вертоліт</a> завершив свою 30-денну демонстрацію технологій і тепер уже в новій <a href="https://mars.nasa.gov/news/8936/nasas-ingenuity-helicopter-to-begin-new-demonstration-phase/">фазі операційної демонстрації</a>
+</span>
+</li>
+<li>
+<span class="fact-title fontBold"><a href="https://mars.nasa.gov/resources/25529/mars-2020-perseverance-landing-press-kit/" target="_blank"> Press Kit</a>
+</span><br><br>
+</li>
+</ul>
+</div>
+</div>
+</div>
+  
+
+  <div class="block_top"><h1>Ласкаво просимо до нашої місії</h1><p>Дослідження Марса - для всіх</p><div class="col-md-3 col-sm-3 col-xs-6"> <a href="#" class="btn btn-sm animated-button thar-four">Дізнатися більше</a> </div></div>
+
+  <div class="block_info">
+  <div class="block"><h1>Що таке місія НАСА "Марс 2020"?</h1><p>Останнім дослідником-роботом, який висадився на Марсі в рамках постійних місій НАСА «Марс 2020», є марсохід під назвою «Наполегливість». Ровер призначений для дослідження марсіанської поверхні, шукаючи ознаки минулого та сучасного життя на планеті, щоб сприяти досягненню наукових цілей Програми дослідження Марса НАСА.</p>
+   <div class="wrap">
+      <a href="../overview/.html" class="button"><b>Дізнатися більше</b></a>
+  </div>
+  </div>
+  <div class="block_img"><img width="500px" height="300px" src="https://www.nasa.gov/sites/default/files/thumbnails/image/pia14839.jpg"></div>
+     </div>
+
+
+     <div class="block_info">
+      <div class="block_img"><img width="400px" height="270px" src="https://cdn.mos.cms.futurecdn.net/Ss67ZEi5NyJx2CxwtfooKk.png"></div> 
+  <div class="block"><h1>Що робитиме марсохід Perseverance?</h1><p>Наполегливість буде шукати ознаки минулого і теперішнього життя на Марсі, а також випробовувати нові технології, що допоможуть майбутнім місіям людини на Марсі.</p>
+   <div class="wrap">
+      <a href="science/index.html" class="button"><b>Дізнатися більше</b></a>
+  </div>
+  </div>
+    
+ </div>
+
+
+
+
+
+
+
+  <!-- Timeline -->
+  <div class="container">
+  <h1 class="title">Визначні події</h1>
+  <div class="timeline">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pia23492-1583432435.jpg);" data-year="2012,Dec.4">
+          <div class="swiper-slide-content"><span class="timeline-year">2012,Dec.4</span>
+            <h4 class="timeline-title">NASA оголосила місію "Mars 2020"</h4>
+            <p class="timeline-text">Марс 2020 — місія за програмою НАСА «Дослідження Марса», що передбачає доставку на червону планету марсохода «Персеверанс», запуск якого здійснено 30 липня 2020 року, а посадка на Марс відбулася 18 лютого 2021 року[3] у кратері Єзеро[5][5][6]. Місія призначена для дослідження астробіологічного давнього середовища на Марсі, дослідження його поверхні, геологічних процесів на ньому та історії, включно із оцінкою його минулої населеності і потенціалу для збереження біосігнатур у межах доступних геологічних матеріалів[7][8]. Марсохід матиме капсули для зразків, які він збиратиме під час руху планетою.</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(https://wallpapercave.com/wp/wp2105961.jpg);" data-year="2020,Jun.30">
+          <div class="swiper-slide-content"><span class="timeline-year">2020,Jun.30</span>
+            <h4 class="timeline-title">Запуск ракети Atlas V</h4>
+            <p class="timeline-text">«Атла́с V» (англ. Atlas V) — одноразова ракета-носій (РН) серії Атлас. Належить до ракет середнього класу. Спочатку вироблялася компанією «Локгід», потім альянсом «United Launch Alliance», сформованим спільно Локгідом і Боїнгом.Починаючи із серпня 2002 року по травень 2011 року було здійснено 26 стартів, при яких була продемонстрована майже 100 % надійність ракети-носія.</p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/PIA22106-Mars2020Rover-ArtistConcept-03-20171117.jpg/1920px-PIA22106-Mars2020Rover-ArtistConcept-03-20171117.jpg);" data-year="2021,Feb.18">
+          <div class="swiper-slide-content"><span class="timeline-year">2021,Feb.18</span>
+            <h4 class="timeline-title">Висадка в кратері Єзеро на Марсі</h4>
+            <p class="timeline-text">Американський марсохід Perseverance сів на "червоній планеті" поблизу поблизу кратера Єзеро. Він шукатиме сліди життя, яке колись могло існувати на Марсі.Всюдихід NASA Perseverance ("Наполегливість") ввечері у четвер, 18 лютого, здійснив посадку на Марс. Як і було заплановано, він сів поблизу кратера Єзеро (Джезеро).Головним завданням місії NASA - з'ясувати, чи є життя на Марсі та зрозуміти, чи може атмосфера на планеті в майбутньому так змінитися, що вона стане придатною для життя людей. </p>
+          </div>
+        </div>
+        <div class="swiper-slide" style="background-image: url(http://www.nasa.gov/sites/default/files/thumbnails/image/helicopter_still_image.jpg);" data-year="2021,Apr.19">
+          <div class="swiper-slide-content"><span class="timeline-year">2021,Apr.19</span>
+            <h4 class="timeline-title">Перший політ Ingenuity</h4>
+            <p class="timeline-text">Марсовий вертоліт, Ingenuity, вперше демонструє технологію для тестування керованого, керованого польоту в іншому світі. Він доїхав до Марса на марсоході Perseverance. Як тільки ровер дістався до відповідного місця "аеродрому", він випустив винахідливість на поверхню, щоб він міг здійснити серію тестових польотів над експериментальним вікном на 30 марсіанських днів.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
+<script  src="RGR.js"></script>
+<br>
+      <div class="footer">
+         <div class="inner_footer">
+          <div class="logo_conteiner">
+            <h1>Perseverance</h1>
+          </div>
+            
+
+          <div class="footer_third">
+            <h1>Приєднуйсь до нас</h1>
+            <li><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/450px-Facebook_icon_2013.svg.png" width="30px" height="30px"><i></i></a></li>
+            <li><a href="#"><i><img src="https://i.pinimg.com/originals/a3/51/82/a351820b268070215664dcdbd4dc7a84.jpg" width="30px" height="30px"></i></a></li>
+            <li><a href="#"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/900px-Instagram_icon.png" width="30px" height="30px"></i></a></li>
+          </div>
+
+          <div class="footer_third">
+            <h1>Інф.</h1>
+              <a href="../team/index.html">Команда</a>
+              <a href="#">Політика конфіденційності</a>
+          </div>
+         </div>
+        
+      </div>
+
+
+</body>
+</html>

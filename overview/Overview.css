@@ -1,0 +1,116 @@
+
+
+/*----*/
+
+.ttt{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+.video-wrap {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 35%;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.section.relatedResources .sectionInner, .section[class*=" bg"] .sectionInner {
+    background-color: transparent;
+}
+.section.padded, .sectionInner.padded {
+    padding: 20px 10%;
+    box-sizing: border-box;
+}
+.padded {
+    padding: 20px;
+}
+.sectionInner {
+    font-family: 'Montserrat';
+    position: relative;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+   
+    font-size: 18px;
+}
+
+.vBottom, .vCentered, .vTop {
+    display: table;
+}
+
+.grid .rowItem:nth-of-type(1):nth-last-of-type(2) {
+    width: 40%;
+    margin: 0 4%;
+}
+.grid .rowItem {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.grid .rowItem img {
+    width: 100%;
+}
+
+
+.section.pageIntro, .tall {
+    height: auto;
+}
+.bgRadialBlue {
+    background: url(data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…BoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-radial-gradient(center,ellipse cover,rgba(1,57,110,1) 0,rgba(0,29,53,1) 100%);
+    background: -webkit-gradient(radial,center center,0,center center,100%,color-stop(0,rgba(1,57,110,1)),color-stop(100%,rgba(0,29,53,1)));
+    background: -webkit-radial-gradient(center,ellipse cover,rgba(1,57,110,1) 0,rgba(0,29,53,1) 100%);
+    background: -o-radial-gradient(center,ellipse cover,rgba(1,57,110,1) 0,rgba(0,29,53,1) 100%);
+    background: -ms-radial-gradient(center,ellipse cover,rgba(1,57,110,1) 0,rgba(0,29,53,1) 100%);
+    background: radial-gradient(ellipse at center,rgba(1,57,110,1) 0,rgba(0,29,53,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01396e', endColorstr='#001d35', GradientType=1 );
+}
+.vBottom, .vCentered, .vTop {
+    display: table;
+}
+.section {
+    position: relative;
+}
+.section, .wide {
+    width: 100%;
+}
+
+
+.grid .rowItem:nth-of-type(2):nth-last-of-type(1) {
+    width: 42%;
+    margin: 0 3%;
+}
+<style>
+.grid .rowItem {
+    display: inline-block;
+    text-align: left;
+}
+<style>
+.vCentered .vCenteredInner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.textWhite, a.textWhite {
+    color: #fff !important;
+}
+
+
+
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:40px;
+right:40px;
+display:none;
+text-indent:-9999px;
+background: url(http://webmastermix.ru/files/demo/creation-site/raznoe/knopka-vverh/icon_top.png) no-repeat;
+z-index: 2;
+}

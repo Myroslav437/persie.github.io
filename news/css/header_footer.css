@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	max-width: 100%;
+
+}
+
+/*----------------------Header-----------------------*/
+
+body{
+  background-color: #fffdfc;
+}
+
+.header{
+	width: 100%;
+	height: 75px;
+	display: block;
+	background-color:  #101010; 
+	position: fixed;
+  z-index: 1000;
+    
+}
+
+.inner-header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	float: left;
+
+}
+
+.logo_conteiner{
+	height: 100%;
+    display: table;
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-right: -27px;
+}
+
+.logo_conteiner h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrat';
+	font-size: 32px;
+	font-weight: 200;
+}
+
+.navigation{
+	float: left;
+	height: 100%;
+	margin-left: 25px;
+	margin-top: 25px;
+
+}
+
+.navigation li {
+	height: 100%;
+	display: table-caption;
+	float: left;
+	padding: 0px 20px;
+    transition: background 0.5s ease;
+    padding-right: 20px;
+}
+
+.navigation li:last-child{
+	
+
+}
+
+.navigation li a {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+/*----------------------Foooter-----------------------*/
+
+
+.footer{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding: 70px 0;
+	box-sizing: border-box;
+	background-color:  #101010;
+}
+
+.inner_footer{
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+	height: 100%;
+}
+
+.inner_footer .logo_conteiner{
+	width: 35%;
+	float: left;
+	height: 100%;
+	display: block;
+}
+
+.inner_footer .logo_conteiner h1{
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 65px;
+	font-weight: 200;
+
+}
+
+.inner_footer .footer_third{
+	width: calc(21.6666666667%-20px);
+	margin-left: 80px;
+	float: right;
+	height: 100%;
+}
+
+.inner_footer .footer_third:last-child{
+	margin-right: 0;
+}
+
+.inner_footer .footer_third h1{
+	font-family: 'Montserrat';
+	font-size: 22px;
+	color: white;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a{
+	font-family: 'Montserrat';
+	font-size: 18px;
+	color: white;
+	display: block;
+	font-weight: 200
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.inner_footer .footer_third li{
+	display: inline-block;
+	padding: 0 5px;
+	font-size: 20px;
+}
+
+@media(max-width: 600px){
+	.footer .inner_footer{
+		width: 90%;
+	}
+
+	.inner_footer .logo_conteiner,
+	.inner_footer .footer_third{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+
+/*---------------SubMenu-------------------*/
+
+
+.w{
+	margin: 8px;
+}
+
+#textSubMenu{
+	font-size: 18px;
+	color: grey;
+}
+
+#textSubMenu:hover{
+	
+	color:black;
+}
+
+.navigation .dropdown .dropdown_menu{ 
+ 	opacity: 0;
+ 	visibility: hidden;
+	background-color: white;
+	position: absolute;
+	top: 65px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    transition: opacity .3s, .3s visibility ease-in-out;
+	min-width: 200px;
+}
+
+  .dropdown ul li a{
+	color: #000;
+	width: 180px;
+
+}
+
+  .dropdown:hover > ul.dropdown_menu,
+  .navigation .dropdown .dropdown_menu:hover{
+	opacity: 1;
+    visibility: visible;
+} 
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:40px;
+right:40px;
+display:none;
+text-indent:-9999px;
+background: url(http://webmastermix.ru/files/demo/creation-site/raznoe/knopka-vverh/icon_top.png) no-repeat;
+z-index: 2;
+}
