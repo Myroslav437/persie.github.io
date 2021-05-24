@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+	<title>Responsive Music Gallery Tutorial</title>
+	<link rel="stylesheet" type="text/css" href="header_footer.css">
+	<link rel="stylesheet" href="audio.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+   <script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+</head>
+
+<body>
+	<a href="#" class="scrollup">Наверх</a>
+	<div class="header">
+           <div class="inner-header">
+              <div class="logo_conteiner">
+                <h1><a href="../main/index.html" style="color: white;"><img width="65" height="55" src="Logo2.png"></a></h1>
+              </div>
+              <ul class="navigation">
+                <li class="dropdown">
+                  <a href="#">Про місію</a>
+                  <ul class="dropdown_menu">
+                    <li class="w"><a href="../overview/index.html" id="textSubMenu">Огляд</a></li>
+                    <li class="w"><a href="../science/index.html" id="textSubMenu">Наука</a></li>
+                    <li class="w"><a href="../technology/index.html" id="textSubMenu">Технологія</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                              <a href="#">Ремесло</a>
+                              <ul class="dropdown_menu" >
+                                    <li class="w"><a href="../rover/index.html" id="textSubMenu">Марсохід</a></li>
+                                    <li class="w"><a href="../instruments/index.html" id="textSubMenu">Інструменти</a></li>
+                                    <li class="w"><a href="../rockets/index.html" id="textSubMenu">Ракети</a></li>
+                              </ul>
+
+                        </li>
+                <li class="dropdown">
+                              <a href="#">Мультимедіа</a>
+                              <ul class="dropdown_menu">
+                                    <li class="w"><a href="../photo/index.html" id="textSubMenu">Фото</a></li>
+                                    <li class="w"><a href="../video/index.html" id="textSubMenu">Відео</a></li>
+                                    <li class="w"><a href="../audio/index.html" id="textSubMenu">Аудіо</a></li>
+                              </ul>
+<li class="dropdown"><a href="../livestream/index.html">Прямий ефір</a></li>
+                        </li>
+                <li class="dropdown"><a href="../news/index.html">Новини</a></li>
+                <li class="dropdown"><a href="../team/index.html">Команда</a></li>
+              </ul>
+           </div>
+       </div>
+
+	<div class="container">
+        
+    <div class="container2">
+		
+		<div class="picture_head"><img height="350" width="2000" src="https://wallpapercave.com/wp/wp2461878.jpg"></div> 
+		<div class="heading"><p>Аудіо</p></div>
+    </div>
+
+		<div class="music-container">
+
+			<div class="headi">
+				Перший аудіозапис звуків на Марсі
+			</div>
+			<div class="box">
+				<div class="image">
+					<img src="https://mars.nasa.gov/system/news_items/main_images/8870_1_-_PIA24422_-_Navcam_360_-_Maki_7_Navcam_360_08_N_LRGB_0002_RAS_0010052_CYL_S_UNCORCLJ01-stretched-v2.jpg" alt="">
+				</div>
+
+				<div class="music">
+					<audio src="SCAM_MIC_SOL001_RUN001.mp3" controls> </audio>
+				</div>
+			</div>
+			<div class="ourtext">
+			Цей запис було зроблено інструментом SuperCam на марсоході Perseverance Mars НАСА 19 лютого 2021 року, приблизно приблизно через 18 годин після посадки в перший золь або марсіанський день місії. Щогла ровера, що тримала мікрофон, все ще була покладена на палубу Персеверанса, і тому звук приглушений, трохи схожий на звук, який ви чуєте, слухаючи черепашку або маючи руку, яка перекриває вухо. Чути лише трохи вітру. </div>
+			<br>
+			<div class="info">
+				    <div class="date">Березень 10,2021</div>
+				    <div class="link"><a href="https://mars.nasa.gov/system/downloadable_items/45825_SCAM_MIC_SOL001_RUN001.mp3">Завантажити аудіозапис ></a></div>
+		    </div>
+			<br>
+			<hr>
+			
+			<div class="headi">
+				Марсоход Perserverance фіксує вітер на Марсі з SuperCam
+			</div>
+			<div class="box">
+				<div class="image">
+					<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fo-kosmose.ru%2Fwp-content%2Fuploads%2F2019%2F06%2F2-6.jpg&f=1&nofb=1" alt="">
+				</div>
+
+				<div class="music">
+					<audio src="SCAM_MIC_SOL004_RUN001.mp3" controls> </audio>
+				</div>
+			</div>
+			<div class="ourtext">
+			Цей запис було зроблено 22 лютого 2021 року, четвертого золя (марсіанського дня) приладом SuperCam на марсоході Perseverance NASA після розгортання щогли ровера. </div>
+			<br>
+			<div class="info">
+				    <div class="date">Березень 21,2021</div>
+				    <div class="link"><a href="https://mars.nasa.gov/system/downloadable_items/45828_SCAM_MIC_SOL004_RUN001.mp3">Завантажити аудіозапис ></a></div>
+		    </div>
+			<br>
+			<hr>
+
+			<hr style="display: block;">
+			<div class="headi">
+				Перший акустичний запис лазерних знімків на Марсі
+			</div>
+			<div class="box">
+				<div class="image">
+					<img src="https://mars.nasa.gov/system/news_items/main_images/8892_PIA23729-Mars_Perseverance-web.jpg" alt="">
+				</div>
+
+				<div class="music">
+					<audio src="SCAM_MIC_SOL012_RUN001.mp3" controls> </audio>
+				</div>
+			</div>
+			<div class="ourtext">
+			Це перший акустичний запис лазерних ударів про скельну ціль на Марсі від 2 березня 2021 року, 12-го золя (марсіанського дня) від приладу SuperCam Perseverance. Чути звуки 30 ударів, деякі з них трохи голосніші, ніж інші. Варіації інтенсивності звуків, що лунають, дадуть інформацію про фізичну структуру цілей, наприклад, про її відносну твердість або наявність вивітрювальних покриттів. Мета, Мааз (“Марс” у Навахо), знаходилася на відстані приблизно 3 футів (3 фути). </div>
+			<br>
+			<div class="info">
+				    <div class="date">Березень 10,2021</div>
+				    <div class="link"><a href="https://mars.nasa.gov/system/downloadable_items/45831_SCAM_MIC_SOL012_RUN001.mp3">Завантажити аудіозапис ></a></div>
+		    </div>
+			<br><hr>
+			
+
+			<div class="headi">
+				Звуки Perserverance Mars Rover - Sol 16 за кермом (90 секунд)
+			</div>
+			<div class="box">
+				<div class="image">
+					<img src="https://mars.nasa.gov/imgs/mars2020/mars2020-sky-crane.jpg" alt="">
+				</div>
+
+				<div class="music">
+					<audio src="FILTERED_HIGHLIGHTS_-_Sol16RoverDriveHighlights.mp3" controls> </audio>
+				</div>
+			</div>
+			<div class="ourtext">
+			Інженери NASA об'єднали три сегменти із аудіофайлу, записаного під час роботи марсохода Perseverance Mars, який прокотився по ділянці кратера Jezero на золі 16 місії. </div>
+			<br>
+			<div class="info">
+				    <div class="date">Березень 17,2021</div>
+				    <div class="link"><a href="https://mars.nasa.gov/system/downloadable_items/45857_FILTERED_HIGHLIGHTS_-_Sol16RoverDriveHighlights.mp3">Завантажити аудіозапис ></a></div>
+		    </div>
+			<br><hr>
+
+			<div class="headi">
+				Послухайте марсовий вертоліт Ingenuity від NASA у польоті
+			</div>
+			<div class="box">
+				<div class="image">
+					<img src="https://mars.nasa.gov/system/news_items/main_images/8928_Mars_Perseverance_ZL0_0058_0672089556_654ECV_N0032046ZCAM05032_110050J-web.jpg" alt="">
+				</div>
+
+				<div class="music">
+					<audio src="20210507_HelicopterFliesOnMars.mp3" controls> </audio>
+				</div>
+			</div>
+			<div class="ourtext">
+			Вперше космічний корабель на іншій планеті записав звуки окремого космічного корабля. Марсохід НАСА Perseverance Mars використовував мікрофон SuperCam для прослуховування вертольота винахідливості 30 квітня 2021 року, коли він летів на Марс вчетверте. </div>
+			<br>
+			<div class="info">
+				    <div class="date">Травень 7,2021</div>
+				    <div class="link"><a href="https://mars.nasa.gov/system/downloadable_items/46087_20210507_HelicopterFliesOnMars.mp3">Завантажити аудіозапис ></a></div>
+		    </div>
+			<br><hr>
+
+
+			<br>
+		</div>
+	</div>
+
+	<div class="footer">
+         <div class="inner_footer">
+          <div class="logo_conteiner">
+            <h1>Perseverance</h1>
+          </div>
+            
+
+          <div class="footer_third">
+            <h1>Приєднуйсь до нас</h1>
+            <li><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/450px-Facebook_icon_2013.svg.png" width="30px" height="30px"><i></i></a></li>
+            <li><a href="#"><i><img src="https://i.pinimg.com/originals/a3/51/82/a351820b268070215664dcdbd4dc7a84.jpg" width="30px" height="30px"></i></a></li>
+            <li><a href="#"><i><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/900px-Instagram_icon.png" width="30px" height="30px"></i></a></li>
+          </div>
+
+          <div class="footer_third">
+            <h1>Інф.</h1>
+              <a href="../team/index.html">Команда</a>
+              <a href="#">Політика конфіденційності</a>
+          </div>
+         </div>
+        
+      </div>
+
+</body>
+</html>

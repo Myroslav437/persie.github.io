@@ -1,0 +1,165 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+font-size: 62.5%;
+}
+
+hr{
+    border: 0;
+    margin: 2rem 0;
+}
+
+
+.ourtext{
+font-family: 'Montserrat';
+position: relative;
+max-width: 980px;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+font-size: 18px;
+}
+
+.headi{
+font-family: 'Montserrat', 'sans-serif';
+position: relative;
+max-width: 1440px;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+font-size: 30px;
+ 
+ margin-top: 20px;
+}
+
+.container{
+background:##fffdfc;
+}
+
+.container .heading{
+font-size: 3rem;
+padding:2rem ;
+text-align: center;
+font-family: 'Montserrat', 'sans-serif';
+text-shadow: 0 .5rem 1rem #000;
+color: #101010;
+}
+
+.container .music-container{
+display: flex;
+align-items: center
+;flex-flow: column;
+}
+
+.container .music-container .box{
+height:16rem;
+width: 80%;
+display: flex;
+align-items: center;
+background: #f9f9f9 ;
+border-radius: 3rem;
+
+overflow: hidden;
+margin: 2rem;
+}
+
+.container .music-container .box .image{
+height:100%;
+width:25%;
+}
+
+.container .music-container .box .image img{
+height:100%;
+width: 100%;
+object-fit: cover;
+}
+
+.container .music-container .box .music{
+width:75%;
+}
+.container .music-container .box .music audio{
+width:100%;
+outline: none;
+}
+.container .music-container .box .music audio::-webkit-media-controls-enclosure{
+	 text-decoration: none;
+background: none;
+}
+
+
+
+
+.info{
+   display: flex;
+   flex-flow: row;
+   text-decoration: none;
+   max-width: 980px;
+   width: 980px;
+   font-family: 'Montserrat', 'sans-serif';
+  }
+
+.info .date{
+	text-align: left;
+	font-size: 18px;
+	color: #ff9041;
+	
+}
+
+.info .link{
+	margin-left: auto;
+	font-size: 20px;
+	text-align: right;
+
+}
+
+.info .link a{
+	text-decoration: none;
+
+}
+
+.info .link a:hover{
+	color: #ff9041;
+	text-decoration: underline;
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.picture_head{
+	width: 100%;
+	z-index: 1;
+}
+
+.heading{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.heading p{
+	color: white;
+	font-size: 50px;
+}
+
+
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:40px;
+right:40px;
+display:none;
+text-indent:-9999px;
+background: url(http://webmastermix.ru/files/demo/creation-site/raznoe/knopka-vverh/icon_top.png) no-repeat;
+z-index: 2;
+}
